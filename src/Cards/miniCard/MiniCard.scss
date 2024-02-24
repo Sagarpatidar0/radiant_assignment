@@ -1,0 +1,133 @@
+.box {
+  width: 333px;
+  height: 340px;
+  padding: auto;
+  border-radius: 12px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 141px;
+    height: 103px;
+  }
+
+  .tags {
+    display: flex;
+    align-items: baseline;
+    margin-top: 3rem;
+
+    h3 {
+      width: 53px;
+      height: 20px;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #074786;
+      background: #f2f4f7;
+    }
+
+    h4 {
+      width: 83px;
+      height: 20px;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #074786;
+      background: #f2f4f7;
+    }
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+      margin-top: -0.3rem;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #626e79;
+    }
+
+    p {
+      margin-top: -1rem;
+      font-family: Inter;
+      font-size: 15px;
+      text-wrap: wrap;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #626e79;
+    }
+  }
+
+  .Pricetag {
+    margin-top: -1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 13rem;
+    .offer {
+      width: 71px;
+      height: 28px;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #5c6874;
+    }
+    .price {
+      width: 48px;
+      height: 20px;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #9fa9b3;
+    }
+    .off {
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ef4c5d;
+    }
+  }
+
+  .Deal {
+    width: 292px;
+    height: 48px;
+    border-radius: 12px;
+    background: #1b88f4;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    &:hover {
+      cursor: pointer;
+      background: #1b88f4c2;
+      color: black;
+      width: 298px;
+      height: 52px;
+    }
+  }
+}
