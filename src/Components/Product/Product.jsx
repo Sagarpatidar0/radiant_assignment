@@ -39,9 +39,9 @@ function Product() {
           Hosting5
         </div>
 
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+        <ProductCard num="1"/>
+        <ProductCard num="2"/>
+        <ProductCard num="3"/>
   
          <div className="Card">
           <div className="image-section">
